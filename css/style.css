@@ -1,0 +1,296 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: arial;
+}
+.menu-section {
+	width: 100%;
+	margin-top: 0 auto;
+	height: 75px;
+	position: fixed;
+	background-color: #151212;
+	font-color:white;
+
+} 
+
+.main-section {
+	background-color: red;
+}
+
+ul.nav-menu li.zentro-class  {
+	float: left;
+    padding: 10px 10px 10px 150px;
+}
+
+li.zentro-class a {
+	color: #6b6363;
+	font-weight: bold;
+	font-size: x-large;
+}
+
+ul.nav-menu li, ul.nav-menu li a { 
+	display: inline-block;
+	text-decoration-line: none;
+}
+ul.nav-menu li.menu-wrapper {
+ 	float: right;
+    color: blue;
+    padding: 20px 30px 10px 25px;
+}
+
+li.menu-wrapper a {
+	color: #6b6363;
+	font-size: small;
+	font-weight: bold;
+} 
+.background-image {
+	background-image: url("../images/anisha.jpg"); 
+	height: 80vh;
+	width: 100%;
+	background-attachment: all;
+	background-repeat: repeat-y;
+	background-size: 100%;
+	background-image: fixed;
+
+} 
+.text {
+	color: #456992;
+	padding-top: 100px;
+	font-size: x-large;
+}
+
+ul.image-text li , ul.image-text li a { 
+	text-align: center;
+}
+
+.button {
+	padding-top: 10px;
+	text-align:center;
+}
+
+.button button{
+	 padding: 12px 40px 12px 40px;
+	 text-align: center;
+	 color: #2e3033;
+	 background: transparent;
+	 font-size: x-large;: 
+}
+.btn:hover {
+    background-color: blue;
+    color: transparent;
+}
+.gallery-menu {
+	padding: 10px;
+	text-align: center;
+	background-color: #ffffff;
+}
+.gallery-heading{
+	font-size: 20px;
+    font-weight: bold;
+    color: #5d5353;
+    font-family: arial; 	
+}
+hr {
+	border-top: 1px solid #828282;
+	width: 120px;
+	margin-left: 635px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+
+}
+.prawn-veg{
+	display: inline-block;
+	padding: 40px 20px 10px 50px;
+}
+.prawn img{
+	height: 222px;
+	width: 388px;
+}
+.vegetable img{
+	height: 222px;
+	width: 388px;
+}
+
+.bakery {
+	display: inline-block; 
+}
+.bakery img {
+	height: 488px;
+	width:250; 
+}
+.salad-pizza{
+	display: inline-block;
+	padding: 10px 20px 10px 20px;
+}
+
+.salad img {
+	height: 222px;
+	width: 388px;
+}
+.pizza img{
+	height:222px;
+	width:388px;
+}
+
+.prawn a,.vegetable a, .bakery a, .salad a, .pizza a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #424246;
+}
+.special-menu {
+	background-color:#ececec;
+	height: auto;
+    padding: 65px;
+    height: 157px;
+}
+.menu a{
+	font-size: 40px;
+    font-weight: bold;
+    color: #ececec;
+}
+.menu-heading {
+	background-color: #ececec;
+	height: auto;
+	text-align: center;
+	color: black;
+	font-family:  arial;
+	font-weight: bold;
+} 
+.special1, .special2 {
+	background-color: #ececec;
+	float: left;
+	width: 50%;
+	text-decoration-line: none;
+	padding: 40px;
+}
+.special2{
+	height: 100vh;
+}
+.special1{
+	height: 100vh;
+}
+ul.menu1, ul.menu2 {
+	list-style: none;
+	padding: 10px;
+}
+
+li.menu-first,li.menu-second {
+	padding: 20px;
+}
+
+ul.menu1 a, ul.menu2 a {
+	text-decoration-line: none;
+	color: black;
+	font-weight: bold;
+}
+.chefs-list {
+	padding: 10px;
+	text-align: center;
+	background-color: #ffffff;
+}
+.zentro-chefs {
+	padding: 10px;
+    text-decoration: none;
+    text-underline-position: none;
+    padding-top: 60vh;
+}
+
+.thanya {
+	text-decoration:normal;
+	display: inline-block; 
+	padding: 60px 40px;
+}
+.thanya img {
+	height: 350px;
+	width:320px; 
+}
+.lynda {
+	text-decoration:normal;
+	display: inline-block;
+	padding: 60px 40px;
+}
+.lynda img {
+	height: 350px;
+	width: 320px;
+}
+.jenny-ko {
+	text-decoration:normal;
+	display: inline-block;
+	padding: 60px 40px;
+}
+.jenny-ko img{
+	height: 350px;
+	width: 320px;
+	text-decoration: none;
+}
+.Contact-us{
+	font-size: 15px;
+    font-weight: bold;
+    color: #5d5353;
+    font-family: arial; 
+}
+.form-table {
+	padding: 20px 100px 45px 310px;
+}
+.form-table td {
+	padding: 10px;
+}
+
+.name, .email {
+	height: 40px;
+	width: 400px;
+}
+
+.message {
+	height: 145px;
+    width: 832px;
+}
+.submit {
+	height: 35px;
+    width: 368px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-family: monospace;
+}
+.information {
+	background-image: url("../images/anish.jpeg");
+	height: 250px;
+	background-repeat: no-repeat;
+	width: 370vh;
+}
+
+.other-information {
+	padding:60px 80px;
+	color: white;
+	float: left;
+	text-align: left;
+}
+.fas fa-phone {
+	float:left;
+}
+.open-hour {
+	float:left;
+	color: white;
+	padding:60px 80px;
+	text-align: left;
+}
+
+i.my-icon { 
+	font-style: normal;  
+}
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #99979c;
+    text-align: center;
+    background-color: #2a2730;
+}
+.footer span {
+	font-size: large;
+	font-weight: bold;
+}
